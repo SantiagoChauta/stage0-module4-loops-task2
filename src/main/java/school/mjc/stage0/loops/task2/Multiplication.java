@@ -2,6 +2,7 @@ package school.mjc.stage0.loops.task2;
 
 public class Multiplication {
     public void printMultiplied(int multiplyByAndToInclusive) {
+    	if(multiplyByAndToInclusive==0) return;
     	int number = 0;
     	int module = 1;
     	if(multiplyByAndToInclusive<0) {
